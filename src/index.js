@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from "prop-types";
-import './switch.css';
+import './index.css';
 
 const BeautifulSwitch = ({
     deafultValue = false,
