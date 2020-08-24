@@ -19,7 +19,7 @@ const BeautifulSwitch = ({
         <div className="switches">
             <label className={"toggler " + (!value ? 'toggler--is-active' : '')}>{offText}</label>
             <div className="toggle" style={{ backgroundColor: color }}>
-                <input type="checkbox" id="switcher" className="check" onChange={_onChange} />
+                <input type="checkbox" id="switcher" className="check" checked={value} onChange={_onChange} />
                 <b className="b switch"></b>
             </div>
             <label className={"toggler " + (value ? 'toggler--is-active' : '')}>{onText}</label>
