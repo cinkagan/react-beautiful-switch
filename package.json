@@ -1,6 +1,6 @@
 {
   "name": "react-beautiful-switch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beatiful switch with react js",
   "main": "./build/index.js",
   "scripts": {
